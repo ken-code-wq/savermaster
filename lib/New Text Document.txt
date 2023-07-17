@@ -1,0 +1,27 @@
+/*Container(
+                                        margin: EdgeInsets.symmetric(
+                                            horizontal: 7.5),
+                                        height: height * 0.1,
+                                        width: (height * 0.1),
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(16),
+                                          color: colorsBox[savingsBox.getAt(
+                                                  moneyBox.getAt(
+                                                      moneyBox.length -
+                                                          1 -
+                                                          index)[1])[2]]
+                                              .shade500
+                                              .withOpacity(.83),
+                                        ),
+                                        child: Center(
+                                          child: Text(
+                                            emojiList[savingsBox.getAt(
+                                                moneyBox.getAt(moneyBox.length -
+                                                    1 -
+                                                    index)[1])[3]],
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(fontSize: 25),
+                                          ),
+                                        ),
+                                      ),
